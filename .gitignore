@@ -7,7 +7,10 @@
 # Ignorar carpetas de IntelliJ IDEA
 .idea/
 
-
+# Ignorar archivos de compilación
+target/
+!target/*.jar
+ 
 # Ignorar otros archivos temporales
 *.log
 *.bak
