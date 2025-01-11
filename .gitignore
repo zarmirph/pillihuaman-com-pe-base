@@ -7,16 +7,16 @@
 # Ignorar carpetas de IntelliJ IDEA
 .idea/
 
-# Ignorar archivos de compilación
+# Ignorar archivos de compilación (excepto los .jar)
 target/
-!target/*.jar
- 
+!target/*.jar  # Permitir archivos .jar generados en la carpeta target
+
 # Ignorar otros archivos temporales
 *.log
 *.bak
 
 # Ignorar binarios de compilación
 *.class
-*.jar
+*.jar   # Ignorar archivos .jar si no están en la carpeta target
 *.war
 *.ear
