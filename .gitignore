@@ -1,0 +1,21 @@
+# Ignorar configuraciones específicas del entorno de desarrollo
+.classpath
+.project
+.settings/
+*.iml
+
+# Ignorar carpetas de IntelliJ IDEA
+.idea/
+
+# Ignorar carpetas de Maven
+target/
+
+# Ignorar otros archivos temporales
+*.log
+*.bak
+
+# Ignorar binarios de compilación
+*.class
+*.jar
+*.war
+*.ear
