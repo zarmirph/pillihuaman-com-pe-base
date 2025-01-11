@@ -77,7 +77,6 @@ classes/
 # Package Files
 ######################
 !target/*.jar
-*.jar
 *.war
 *.ear
 *.db
